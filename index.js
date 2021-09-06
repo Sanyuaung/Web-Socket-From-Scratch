@@ -21,4 +21,4 @@ app.get('/',(res,req)=>{
 let io=socket(server)
 io.on('connection',(socket)=>{
     console.log("socket connection connected" + socket.id);
-})
+});
